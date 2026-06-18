@@ -1,0 +1,23 @@
+{
+  "name": "lexify",
+  "description": "网页双语对照翻译扩展 —— Google / Microsoft / 百度 / LLM",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip",
+    "compile": "svelte-check --tsconfig ./tsconfig.json",
+    "postinstall": "wxt prepare"
+  },
+  "devDependencies": {
+    "@wxt-dev/module-svelte": "^2.0.3",
+    "svelte": "^5.20.0",
+    "svelte-check": "^4.1.0",
+    "typescript": "^5.7.0",
+    "wxt": "^0.20.0"
+  }
+}
